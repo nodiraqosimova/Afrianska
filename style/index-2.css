@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Calibri;
+}
+
+.navbar img {
+    z-index: 2;
+}
+
+.container {
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    align-items: center;
+    display: flex;
+    padding: 40px 0;
+    justify-content: space-between;
+}
+
+.vek:nth-child(2) {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.vektor .vek {
+    background-color: #356EAD;
+    height: 4px;
+    width: 24px;
+    z-index: 100;
+}
+
+/*section.
+blog
+*/
+.blog {
+    background-image: url("../../Afrianska/img/Mask Group.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.blog .container h1 {
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+
+.blog .container p {
+    width: 780px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.4);
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+/*search*/
+.label__search{
+    margin: 56px 0;
+    background: #F4F4F4;
+    border-radius: 10px;
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+}
+.label__search::before{
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url("../../Afrianska/img/Vector (12).png");
+    background-repeat: no-repeat;
+    opacity: 0.5;
+margin: 0 24px;
+}
+.search__input{
+    width: 100%;
+background: transparent;
+    border: none;
+    outline: none;
+}
+.search__input::-webkit-search-cancel-button,
+.search__input::-webkit-search-decoration{
+    appearance: none;
+  display: none;
+}
+
+.container .pop {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    color: #356EAD;
+    margin-bottom: 32px;
+}
+
+.popular {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-f {
+    width: 400px;
+}
+
+.card-f h1 {
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 32px;
+}
+
+.card-f p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 30px;
+}
+
+.sam {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.may {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.4
+}
+
+.bottom {
+    display: flex;
+}
+
+.icon {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.icon .icons {
+    margin-right: 38px;
+}
+
+.card-bottom {
+    width: 300px;
+}
+
+.card-bottom h2 {
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 16px;
+}
+
+.card-bottom p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 16px;
+}
+
+.col {
+    margin-top: 32px;
+}
+
+.container .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.href a {
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #356EAD;
+    opacity: 0.8;
+    display: flex;
+    margin-top: 56px;
+    margin-bottom: 24px;
+justify-content: flex-end;
+}
+.art{
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    color: #356EAD;
+    opacity: 0.8;
+    margin-bottom: 32px;
+    margin-top: 56px;
+}
+.card{
+    display: flex;
+    margin-bottom: 30px;
+}
+.card-right{
+    width: 540px;
+    margin-left: 19px;
+}
+.card-right h3{
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+.card-right p{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 16px;
+    margin-bottom: 14px;
+}
+.old {
+    display: flex;
+    justify-content: space-between;
+}
+.old a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #356EAD;
+}
+.old a:nth-child(2) img{
+    margin-left: 19px;
+}
+.old a:nth-child(1) img{
+    margin-right: 19px;
+}
+/*footer*/
+.card-2 {
+    width: 92%;
+    background: #316099;
+    border-radius: 0 200px 0 0;
+}
+
+
+.card-2 .btn-1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: none;
+    background-color: #5A98D0;
+    padding: 15px 74px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.text__1 {
+    width: 460px;
+    margin-top: 100px;
+}
+
+.text__1 h1 {
+    width: 317px;
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    /*margin-top: 20px;*/
+}
+
+.text__1 p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-top: 32px;
+}
+
+.card-2 .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.text__2 {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.text__2 .btn-2 {
+    background: #5A98D0;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 74px;
+    color: #FFFFFF;
+}
+
+.card-2 hr {
+    opacity: 0.4;
+    width: 1143px;
+    margin: 90px 0;
+}
+
+.container .logo h3 {
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+}
+
+.logo p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin: 24px;
+    width: 264px;
+}
+
+.logo p .br {
+    /*padding-left: 10px;*/
+}
+
+.logo p a {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 16px;
+}
+
+.item-index h3 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.item {
+    list-style: none;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.list-item{
+    padding-top: 16px;
+}
+.card-2 .container {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
